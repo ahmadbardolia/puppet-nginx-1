@@ -22,7 +22,7 @@ class nginx::config(
   
   file { $log_dir:
     ensure  => directory,
-    recure => true,
+    recurse => true,
   }
   
   file { $docroot:
